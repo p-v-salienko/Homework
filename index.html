@@ -4,22 +4,30 @@
 <head>
     <meta charset="UTF-8">
     <title>Simple</title>
-</head>
+    <link rel="stylesheet" href="./style.css"> </head>
 
 <body>
     <main class="content">
         <section class="product">
-            <h1 class="product-title">Product name</h1>
-            <ul class="product-list">
-                <li class="product-item">Put on this page information about your product</li>
-                <li class="product-item">A detailed description of your product</li>
-                <li class="product-item">Tell us about the advantages and merits</li>
-                <li class="product-item">Associate the page with the payment system</li>
-            </ul> <img class="product-img" src="img/Product.png" widh="472" height="217" alt="Product name"> </section>
+            <div class="column">
+                <h1 class="product-title">Product name</h1>
+                <ul class="product-list">
+                    <li class="product-item">Put on this page information about your product</li>
+                    <li class="product-item">A detailed description of your product</li>
+                    <li class="product-item">Tell us about the advantages and merits</li>
+                    <li class="product-item">Associate the page with the payment system</li>
+                </ul>
+            </div>
+            <div class="column"> <img class="product-img" src="img/Product.png" widh="472" height="217" alt="Product name"></div>
+        </section>
         <section class="about">
-            <h2 class="about-title">About your product</h2>
-            <p class="about-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis facilis fuga, illo at. Natus eos, eligendi illum rerum omnis porro ex, magni, explicabo veniam incidunt in quam sapiente ut ipsum.</p>
-            <p class="about-text">Pariatur iure ab sunt nesciunt, quibusdam odio iste cumque itaque, ipsa vel exercitationem ullam quos aut nostrum cupiditate fuga quaerat quam animi dolores. Sequi itaque, unde perferendis nemo debitis dolor.</p> <img class="product-img" src="img/Product.png" widh="430" height="245" alt="Product name"> </section>
+            <div class="column">
+                <h2 class="about-title">About your product</h2>
+                <p class="about-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis facilis fuga, illo at. Natus eos, eligendi illum rerum omnis porro ex, magni, explicabo veniam incidunt in quam sapiente ut ipsum.</p>
+                <p class="about-text">Pariatur iure ab sunt nesciunt, quibusdam odio iste cumque itaque, ipsa vel exercitationem ullam quos aut nostrum cupiditate fuga quaerat quam animi dolores. Sequi itaque, unde perferendis nemo debitis dolor.</p>
+            </div>
+            <div class="column"><img class="about-img" src="img/Product.png" widh="430" height="245" alt="Product name"></div>
+        </section>
         <section class="dignity">
             <h2 class="dignity-title">Dignity and pluses product</h2>
             <ul class="dignity-list">
@@ -31,24 +39,52 @@
                 <li class="dignity-list-item">Delectus dolorem vero quae beatae quasi dolor deserunt iste amet atque, impedit iure placeat, ullam. Reprehenderit aliquam, nemo cum velit ratione perferendis quas, maxime, quaerat porro totam, dolore minus inventore.</li>
             </ul>
         </section>
-        <section class="screenshots">
-            <h2 class="screenshots-title">Screenshots</h2> <img class="screenshots-img" src="img/screenshots.png" widh="202" height="153" alt="screenshots">
-            <h3 class="screenshots-title-img">The description for the image</h3>
-            <p class="screenshots-text-img">Pariatur iure ab sunt nesciunt, quibusdam odio iste cumque itaque, ipsa vel exercitationem ullam quos aut nostrum cupiditate fuga quaerat quam animi dolores. Sequi itaque, unde perferendis nemo debitis dolor.</p> <img class="screenshots-img" src="img/screenshots.png" widh="202" height="153" alt="screenshots">
-            <h3 class="screenshots-title-img">The description for the image</h3>
-            <p class="screenshots-text-img">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis facilis fuga, illo at. Natus eos, eligendi illum rerum omnis porro ex, magni, explicabo veniam incidunt in quam sapiente ut ipsum.</p> <img class="screenshots-img" src="img/screenshots.png" widh="202" height="153" alt="screenshots">
-            <h3 class="screenshots-title-img">The description for the image</h3>
-            <p class="screenshots-text-img">Pariatur iure ab sunt nesciunt, quibusdam odio iste cumque itaque, ipsa vel exercitationem ullam quos aut nostrum cupiditate fuga quaerat quam animi dolores. Sequi itaque, unde perferendis nemo debitis dolor.</p> <img class="screenshots-img" src="img/screenshots.png" widh="202" height="153" alt="screenshots">
-            <h3 class="screenshots-title-img">The description for the image</h3>
-            <p class="screenshots-text-img">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis facilis fuga, illo at. Natus eos, eligendi illum rerum omnis porro ex, magni, explicabo veniam incidunt in quam sapiente ut ipsum.</p>
+        <section class="screen">
+            <h2 class="screen-title">Screenshots</h2>
+            <figure class="screen-item"> <img class="screen-img" src="img/screenshots.png" alt="Screenshot">
+                <figcaption>
+                    <h3 class="screen-description">The description for the image</h3>
+                    <p class="screen-text">Pariatur iure ab sunt nesciunt, quibusdam odio iste cumque itaque, ipsa vel exercitationem ullam quos aut nostrum cupiditate fuga quaerat quam animi dolores. Sequi itaque, unde perferendis nemo debitis dolor.</p>
+                </figcaption>
+            </figure>
+            <figure class="screen-item"> <img class="screen-img" src="img/screenshots.png" alt="Screenshot">
+                <figcaption>
+                    <h3 class="screen-description">The description for the image</h3>
+                    <p class="screen-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis facilis fuga, illo at. Natus eos, eligendi illum rerum omnis porro ex, magni, explicabo veniam incidunt in quam sapiente ut ipsum.</p>
+                </figcaption>
+            </figure>
+            <figure class="screen-item"> <img class="screen-img" src="img/screenshots.png" alt="Screenshot">
+                <figcaption>
+                    <h3 class="screen-description">The description for the image</h3>
+                    <p class="screen-text">Pariatur iure ab sunt nesciunt, quibusdam odio iste cumque itaque, ipsa vel exercitationem ullam quos aut nostrum cupiditate fuga quaerat quam animi dolores. Sequi itaque, unde perferendis nemo debitis dolor.</p>
+                </figcaption>
+            </figure>
+            <figure class="screen-item"> <img class="screen-img" src="img/screenshots.png" alt="Screenshot">
+                <figcaption>
+                    <h3 class="screen-description">The description for the image</h3>
+                    <p class="screen-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis facilis fuga, illo at. Natus eos, eligendi illum rerum omnis porro ex, magni, explicabo veniam incidunt in quam sapiente ut ipsum.</p>
+                </figcaption>
+            </figure>
         </section>
         <section class="reviews">
             <h2 class="reviews-title">Reviews</h2>
             <ul class="reviews-list">
-                <li class="reviews-list-item">Porro officia cumque sint deleniti nemo facere rem vitae odit inventore cum odio, iste quia doloribus autem aperiam nulla ea neque reprehenderit. Libero doloribus, possimus officiis sapiente necessitatibus commodi consectetur?</li>
-                <li class="reviews-list-item">Porro officia cumque sint deleniti nemo facere rem vitae odit inventore cum odio, iste quia doloribus autem aperiam nulla ea neque reprehenderit. Libero doloribus, possimus officiis sapiente necessitatibus commodi consectetur?</li>
-                <li class="reviews-list-item">Porro officia cumque sint deleniti nemo facere rem vitae odit inventore cum odio, iste quia doloribus autem aperiam nulla ea neque reprehenderit. Libero doloribus, possimus officiis sapiente necessitatibus commodi consectetur?</li>
-                <li class="reviews-list-item">Porro officia cumque sint deleniti nemo facere rem vitae odit inventore cum odio, iste quia doloribus autem aperiam nulla ea neque reprehenderit. Libero doloribus, possimus officiis sapiente necessitatibus commodi consectetur?</li>
+                <li class="reviews-list-item">
+                    <p class="paragraph">Porro officia cumque sint deleniti nemo facere rem vitae odit inventore cum odio, iste quia doloribus autem aperiam nulla ea neque reprehenderit. Libero doloribus, possimus officiis sapiente necessitatibus commodi consectetur?</p>
+                    <p class="signature">Lourens S.</p>
+                </li>
+                <li class="reviews-list-item">
+                    <p class="paragraph">Porro officia cumque sint deleniti nemo facere rem vitae odit inventore cum odio, iste quia doloribus autem aperiam nulla ea neque reprehenderit. Libero doloribus, possimus officiis sapiente necessitatibus commodi consectetur?</p>
+                    <p class="signature">Lourens S.</p>
+                </li>
+                <li class="reviews-list-item">
+                    <p class="paragraph">Porro officia cumque sint deleniti nemo facere rem vitae odit inventore cum odio, iste quia doloribus autem aperiam nulla ea neque reprehenderit. Libero doloribus, possimus officiis sapiente necessitatibus commodi consectetur?</p>
+                    <p class="signature">Lourens S.</p>
+                </li>
+                <li class="reviews-list-item">
+                    <p class="paragraph">Porro officia cumque sint deleniti nemo facere rem vitae odit inventore cum odio, iste quia doloribus autem aperiam nulla ea neque reprehenderit. Libero doloribus, possimus officiis sapiente necessitatibus commodi consectetur?</p>
+                    <p class="signature">Lourens S.</p>
+                </li>
             </ul>
         </section>
         <section class="buy">
@@ -56,60 +92,82 @@
             <div class="buy-price-standart">
                 <h2 class="buy-price-title">Standart</h2>
                 <p class="buy-price-text">$100</p>
-                <ul class="buy-list">
-                    <li class="buy-list-item">1. Porro officia cumque sint deleniti;</li>
-                    <li class="buy-list-item">2. Тemo facere rem vitae odit;</li>
-                    <li class="buy-list-item">3. Cum odio, iste quia doloribus autem;</li>
-                    <li class="buy-list-item">4. Aperiam nulla ea neque.</li>
-                    <input type="submit" value="BUY"> </ul>
+                <ol class="buy-list">
+                    <li class="buy-list-item">Porro officia cumque sint deleniti;</li>
+                    <li class="buy-list-item">Тemo facere rem vitae odit;</li>
+                    <li class="buy-list-item">Cum odio, iste quia doloribus autem;</li>
+                    <li class="buy-list-item">Aperiam nulla ea neque.</li>
+                </ol>
+                <div class="inp">
+                    <input type="submit" value="BUY"> </div>
             </div>
             <div class="buy-price-premium">
                 <h2 class="buy-price-title">Premium</h2>
                 <p class="buy-price-text">$150</p>
-                <ul class="buy-list">
-                    <li class="buy-list-item">1. Porro officia cumque sint deleniti;</li>
-                    <li class="buy-list-item">2. Тemo facere rem vitae odit;</li>
-                    <li class="buy-list-item">3. Cum odio, iste quia doloribus autem;</li>
-                    <li class="buy-list-item">4. Aperiam nulla ea neque.</li>
-                    <li class="buy-list-item">5. Porro officia cumque sint deleniti;</li>
-                    <li class="buy-list-item">6. Тemo facere rem vitae odit;</li>
-                    <li class="buy-list-item">7. Cum odio, iste quia doloribus autem;</li>
-                    <li class="buy-list-item">8. Aperiam nulla ea neque.</li>
-                    <input type="submit" value="BUY"> </ul>
+                <ol class="buy-list">
+                    <li class="buy-list-item">Porro officia cumque sint deleniti;</li>
+                    <li class="buy-list-item">Тemo facere rem vitae odit;</li>
+                    <li class="buy-list-item">Cum odio, iste quia doloribus autem;</li>
+                    <li class="buy-list-item">Aperiam nulla ea neque.</li>
+                    <li class="buy-list-item">Porro officia cumque sint deleniti;</li>
+                    <li class="buy-list-item">Тemo facere rem vitae odit;</li>
+                    <li class="buy-list-item">Cum odio, iste quia doloribus autem;</li>
+                    <li class="buy-list-item">Aperiam nulla ea neque.</li>
+                </ol>
+                <div class="inp">
+                    <input type="submit" value="BUY"> </div>
             </div>
             <div class="buy-price-lux">
                 <h2 class="buy-price-title">Lux</h2>
                 <p class="buy-price-text">$200</p>
-                <ul class="buy-list">
-                    <li class="buy-list-item">1. Porro officia cumque sint deleniti;</li>
-                    <li class="buy-list-item">2. Тemo facere rem vitae odit;</li>
-                    <li class="buy-list-item">3. Cum odio, iste quia doloribus autem;</li>
-                    <li class="buy-list-item">4. Aperiam nulla ea neque.</li>
-                    <li class="buy-list-item">5. Porro officia cumque sint deleniti;</li>
-                    <li class="buy-list-item">6. Тemo facere rem vitae odit;</li>
-                    <li class="buy-list-item">7. Cum odio, iste quia doloribus autem;</li>
-                    <li class="buy-list-item">8. Aperiam nulla ea neque.</li>
-                    <li class="buy-list-item">9. Porro officia cumque sint deleniti;</li>
-                    <li class="buy-list-item">10. Тemo facere rem vitae odit;</li>
-                    <li class="buy-list-item">11. Cum odio, iste quia doloribus autem;</li>
-                    <li class="buy-list-item">12. Aperiam nulla ea neque.</li>
-                    <input type="submit" value="BUY"> </ul>
+                <ol class="buy-list">
+                    <li class="buy-list-item">Porro officia cumque sint deleniti;</li>
+                    <li class="buy-list-item">Тemo facere rem vitae odit;</li>
+                    <li class="buy-list-item">Cum odio, iste quia doloribus autem;</li>
+                    <li class="buy-list-item">Aperiam nulla ea neque.</li>
+                    <li class="buy-list-item">Porro officia cumque sint deleniti;</li>
+                    <li class="buy-list-item">Тemo facere rem vitae odit;</li>
+                    <li class="buy-list-item">Cum odio, iste quia doloribus autem;</li>
+                    <li class="buy-list-item">Aperiam nulla ea neque.</li>
+                    <li class="buy-list-item">Porro officia cumque sint deleniti;</li>
+                    <li class="buy-list-item">Тemo facere rem vitae odit;</li>
+                    <li class="buy-list-item">Cum odio, iste quia doloribus autem;</li>
+                    <li class="buy-list-item">Aperiam nulla ea neque.</li>
+                </ol>
+                <div class="inp">
+                    <div class="inp">
+                        <input type="submit" value="BUY"> </div>
+                </div>
             </div>
         </section>
         <section class="contacts">
             <h2 class="contacts-title">Contacts</h2>
-            <input type="text" placeholder="Your name:">
-            <input type="text" placeholder="Your email:">
-            <input type="text" placeholder="Your message:">
-            <input type="submit" value="SEND">
-            <ul class="contacts-list">
-                <li class="contacts-list-item">here_your_login_skype</li>
-                <li class="contacts-list-item">279679659</li>
-                <li class="contacts-list-item">psdhtmlcss@mail.ru</li>
-                <li class="contacts-list-item">80 00 4568 55 55</li> <img class="contacts-img" src="img/Twitter.png" widh="44,63" height="44,63" alt="Twitter"> <img class="contacts-img" src="img/VK.png" widh="44,16" height="44,16" alt="VK"> <img class="contacts-img" src="img/Google.png" widh="45,03" height="45,03" alt="Google"> <img class="contacts-img" src="img/Facebook.png" widh="44,16" height="44,16" alt="Facebook"> </ul>
+            <figure class="contacts-item">
+                <figcaption>
+                    <input type="text" placeholder="Your name:">
+                    <br>
+                    <br>
+                    <input type="text" placeholder="Your email:">
+                    <br>
+                    <br>
+                    <input type="text-message" placeholder="Your message:">
+                    <br>
+                    <br>
+                    <input type="submit-send" value="SEND"> </figcaption>
+            </figure>
+            <figure class="contacts-item">
+                <figcaption>
+                    <ul class="contacts-list">
+                        <li class="skype">here_your_login_skype</li>
+                        <li class="icq">279679659</li>
+                        <li class="mail">psdhtmlcss@mail.ru</li>
+                        <li class="phone">80 00 4568 55 55</li>
+                        <br><img class="contacts-img" src="img/Twitter.png" widh="44,63" height="44,63" alt="Twitter"> <img class="contacts-img" src="img/VK.png" widh="44,16" height="44,16" alt="VK"> <img class="contacts-img" src="img/Google.png" widh="45,03" height="45,03" alt="Google"> <img class="contacts-img" src="img/Facebook.png" widh="44,16" height="44,16" alt="Facebook"> </ul>
+                </figcaption>
+            </figure>
         </section>
     </main>
     <footer class="footer">Copyright © 2014 Product name · PSD HTML CSS</footer>
 </body>
 
-</html> 
+</html>
