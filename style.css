@@ -68,15 +68,6 @@
                 color: #333333;
             }
             
-            .about-img {
-                width: 430px;
-                height: 245px;
-                left: 750px;
-                top: 25px;
-                background: #445161;
-                margin-top: 10px;
-            }
-            
             .dignity {
                 padding: 5px calc(50% - 1200px / 2);
                 background: #F5F5F5;
@@ -320,18 +311,36 @@
                 list-style-image: url(img/Phone.png);
             }
             
-            input[type=text] {
-                padding: 10px;
+            .form-field {
                 border-radius: 10px;
-                width: 503px;
+                width: 540px;
                 height: 43px;
             }
             
-            input[type=text-message] {
-                padding: 10px;
+            .form-field-text {
                 border-radius: 10px;
+            }
+            
+            .form-field::placeholder {
+                padding: 10px;
                 width: 503px;
-                height: 173px;
+                height: 43px;
+                font-family: Arial;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 24px;
+            }
+            
+            .form-field-text::placeholder {
+                padding: 10px;
+                width: 503px;
+                height: 43px;
+                font-family: Arial;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 24px;
             }
             
             input[type=submit-send] {
