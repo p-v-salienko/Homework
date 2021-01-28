@@ -4,10 +4,13 @@
             
             .product {
                 padding: 5px calc(50% - 1200px / 2);
-                background: #445161;
                 display: flex;
                 justify-content: space-between;
                 align-items: flex-start;
+                background-image: url(img/Goth.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center -100px;
             }
             
             .product-title {
@@ -71,6 +74,9 @@
             .dignity {
                 padding: 5px calc(50% - 1200px / 2);
                 background: #F5F5F5;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
             }
             
             .dignity-title {
@@ -80,24 +86,28 @@
                 color: #445161;
                 text-align: center;
                 margin-top: 0;
+                flex-basis: 100%;
             }
             
-            .dignity-list {
-                list-style-image: url(img/Plus.png);
+            .dignity-text-column {
+                width: 100%;
+                margin: 0;
+                margin-bottom: 20px;
+                display: flex;
+                align-items: flex-start;
+            }
+            
+            .dignity-text {
                 font-family: Arial;
                 font-style: normal;
                 font-weight: normal;
                 font-size: 16px;
                 line-height: 24px;
                 color: #333333;
-                display: flex;
-                flex-wrap: wrap;
-                justify-content: space-between;
-            }
-            
-            .dignity-list-item {
-                width: 45%;
-                margin-bottom: 20px;
+                background-image: url(img/Plus.png);
+                background-repeat: no-repeat;
+                padding-left: 40px;
+                background-position: 5px;
             }
             
             .screen {
@@ -137,6 +147,9 @@
             .reviews {
                 padding: 5px calc(50% - 1200px / 2);
                 background: #F5F5F5;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
             }
             
             .reviews-title {
@@ -146,29 +159,47 @@
                 color: #445161;
                 text-align: center;
                 margin-top: 0;
-                color: #445161;
+                flex-basis: 100%;
             }
             
-            .reviews-list {
-                list-style-image: url(img/circle.png);
-                display: flex;
-                flex-wrap: wrap;
-                justify-content: space-between;
-            }
-            
-            .reviews-list-item {
+            .reviews-screen {
                 width: 45%;
+                margin: 0;
                 margin-bottom: 20px;
-                background: #EBEBEB;
-                border-radius: 5px;
+                display: flex;
+                align-items: flex-start;
             }
             
-            .paragraph {
+            .reviews-img {
+                margin-right: 50px;
+                margin-top: 20px;
+            }
+            
+            .text-signature {
+                background-color: silver;
+                border-radius: 10px;
+            }
+            
+            .reviews-text::before {
+                content: '';
+                display: block;
+                width: 0px;
+                height: 0px;
+                border: 20px solid transparent;
+                border-right: 20px solid grey;
+                position: absolute;
+                margin-right: 30px;
+            }
+            
+            .reviews-text {
                 font-family: Roboto;
                 font-style: italic;
                 font-weight: normal;
-                font-size: 14px;
+                font-size: 16px;
                 color: #000000;
+                background-color: silver;
+                border-radius: 10px;
+                padding-left: 10px;
             }
             
             .signature {
@@ -177,6 +208,7 @@
                 font-weight: normal;
                 font-size: 14px;
                 color: #989898;
+                padding-left: 10px;
             }
             
             .buy {
@@ -199,7 +231,6 @@
             
             .buy-price-standart {
                 border: 1px solid #445161;
-                padding: 0 10px;
                 width: 300px;
                 height: 350px;
                 margin-top: auto;
@@ -210,7 +241,6 @@
             
             .buy-price-premium {
                 border: 1px solid #445161;
-                padding: 0 10px;
                 width: 300px;
                 height: 404px;
                 margin-top: auto;
@@ -220,7 +250,6 @@
             
             .buy-price-lux {
                 border: 1px solid #445161;
-                padding: 0 10px;
                 width: 300px;
                 height: 499px;
                 margin-top: auto;
@@ -309,6 +338,12 @@
             
             li.phone {
                 list-style-image: url(img/Phone.png);
+            }
+            
+            .icon {
+                margin-left: 25px;
+                font-size: 30px;
+                color: aqua;
             }
             
             .form-field {
